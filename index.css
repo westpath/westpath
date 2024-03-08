@@ -1,0 +1,12 @@
+* {
+    font-family: 'Book Antiqua', Arial, sans-serif;
+    color: white;
+    background-color: black;
+  }
+
+.opener h1 {
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(61, 50, 35);
+    width: 100%;
+}
