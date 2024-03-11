@@ -15,7 +15,7 @@ header h1, h2 {
 
 
 .content{
-    background: url("resources/assets/westphoto.jpg");
+    background: url("../assets/westphoto.jpg");
     height: 800px;
     width:100%;
     background-size: cover;
