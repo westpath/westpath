@@ -1,12 +1,41 @@
-* {
-    font-family: 'Book Antiqua', Arial, sans-serif;
-    color: white;
-    background-color: black;
-  }
 
-.opener h1 {
-    margin: 0 auto;
+
+header h1, h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ECA93B;
+    margin: 0px auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
     text-align: center;
-    background-color: rgb(61, 50, 35);
     width: 100%;
+    background-color: #3e3a30;
 }
+
+
+.content{
+    background: url("../assets/westphoto.png");
+    height: 800px;
+    width:100%;
+    background-size: cover;
+    object-fit: left;
+    min-width:1280px;
+}
+
+.textContentHeader {
+    color:#f6f0e1;
+    text-align: right;
+    margin-right:150px;
+    padding-top: 40px;
+}
+
+.textContent {
+    background-color: #f6f0e1;
+    float: right;
+    width: 500px;
+    margin-right: 50px;
+    padding: 8px 8px 30px 8px;
+}
+
+
