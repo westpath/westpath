@@ -19,10 +19,9 @@ nav {
     position: sticky;
     top:0;
     z-index: 12;
-    display: inline-block;
+    min-width: 100px;
+    max-width: 500px;
     text-align: center;
-    left: 50%;
-    transform: translateX(-50%);
     -webkit-clip-path: polygon(0 0, 100% 0, calc(100% - 20px) 100%, 20px 100%);
     clip-path: polygon(0 0, 100% 0, calc(100% - 20px) 100%, 20px 100%);
     padding-top: 5px;
@@ -33,13 +32,8 @@ nav {
 }
 
 nav li {
-    text-decoration: none;
-    position:-webkit-sticky;
-    position: sticky;
-    top:0;
-    z-index: 13;
-    display: inline-block;
-    text-align: center;
+    display: inline-flex;
+    flex-wrap: wrap;
     padding: 0px 10px;
 }
 
@@ -86,7 +80,6 @@ footer {
     background-color: #3e3a30;
     width: 100%;
     height: fit-content;
-    margin: 0px auto;
     padding: 20px 0px 10px 20px;
 }
 
