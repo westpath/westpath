@@ -15,7 +15,7 @@ header h1, h2 {
 
 
 .content{
-    background: url("../assets/westphoto.jpg");
+    background: url("../assets/westphoto.png");
     height: 800px;
     width:100%;
     background-size: cover;
@@ -33,9 +33,10 @@ header h1, h2 {
 .textContent {
     background-color: #f6f0e1;
     float: right;
-    width: 500px;
+    width: 550px;
     margin-right: 50px;
-    padding: 8px 8px 30px 8px;
+    padding: 15px 8px 40px 8px;
+    border-radius: 5% 5% 0 0;
 }
 
 
