@@ -1,1 +1,75 @@
+main {
+    background-color: #f6f0e1;
+}
+
+header h1, h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ECA93B;
+    margin: 0px auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+h2 {
+    color: #f6f0e1;
+}
+
+main {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    background: url("../assets/wall.jpg");
+    height: fit-content;
+    background-size: cover;
+    min-width:1280px;
+}
+
+.dotw {
+    max-height: 700px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 2;
+    max-width: 600px;
+    min-width: 200px;
+    margin-right: 50px;
+    z-index: 3;
+
+}
+
+.contentHeader {
+    text-align: right;
+    color:#f6f0e1;
+    margin-bottom: 8px
+}
+
+.contentBody {
+    position: relative;
+    background-color: #3e3a30;
+    color:#f6f0e1;
+    z-index: 3;
+    padding: 15px 10px 15px 10px;
+    border-radius: 5%;
+}
+
+.contentBody a, em {
+color: #fc766d;
+}
+
+a {
+    cursor:pointer;
+}
+
+
+a:hover {
+    color: #ECA93B;
+}
 
