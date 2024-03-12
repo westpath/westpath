@@ -10,9 +10,15 @@ header h1, h2 {
     padding-bottom: 10px;
     text-align: center;
     width: 100%;
-    background-color: #3e3a30;
 }
 
+h2{
+    color: #f6f0e1;
+}
+
+.woodbacking {
+    background: url("../assets/wood.png");
+}
 
 main {
     background: url("../assets/westphoto.jpg");
@@ -24,16 +30,15 @@ main {
 
 .content {
     display: flex;
-    flex-direction: column;
     align-items: flex-end;
-    flex-wrap: nowrap;
+    flex-flow: column nowrap;
 }
 
 
 .textContentHeader {
     color:#f6f0e1;
     padding-top: 40px;
-    margin-right: 100px;
+    margin-right: 200px;
 }
 
 .textContent {
