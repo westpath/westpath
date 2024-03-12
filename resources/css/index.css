@@ -14,29 +14,37 @@ header h1, h2 {
 }
 
 
-.content{
+main {
     background: url("../assets/westphoto.jpg");
-    height: 800px;
+    height: fit-content;
     width:100%;
     background-size: cover;
-    object-fit: left;
     min-width:1280px;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+}
+
+
 .textContentHeader {
     color:#f6f0e1;
-    text-align: right;
-    margin-right:150px;
     padding-top: 40px;
+    margin-right: 100px;
 }
 
 .textContent {
+    flex-shrink: 2;
     background-color: #f6f0e1;
-    float: right;
-    width: 550px;
+    max-width: 550px;
+    min-width: 200px;
     margin-right: 50px;
     padding: 15px 8px 40px 8px;
     border-radius: 5% 5% 0 0;
+    z-index: 3;
 }
 
 
