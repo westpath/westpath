@@ -22,39 +22,40 @@ main {
     display: inline-flex;
     flex-direction: row;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
     background: url("../assets/wall.jpg");
     height: fit-content;
     background-size: cover;
-    min-width:1280px;
+    min-width:700px;
 }
 
 .dotw {
     max-height: 700px;
+    margin: 0px 40px 0px 200px;
+    flex-basis: auto;
 }
 
 .content {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-shrink: 2;
     max-width: 600px;
-    min-width: 200px;
+    min-width: 300px;
     margin-right: 50px;
     z-index: 3;
-
+    margin: 0px 200px 20px 40px;
 }
 
 .contentHeader {
     text-align: right;
     color:#f6f0e1;
-    margin-bottom: 8px
+    padding-top: 40px;
 }
 
 .contentBody {
     position: relative;
-    background-color: #3e3a30;
-    color:#f6f0e1;
+    background-color: #f6f0e1;
+    color:#3e3a30;
     z-index: 3;
     padding: 15px 10px 15px 10px;
     border-radius: 5%;
