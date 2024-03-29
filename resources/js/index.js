@@ -32,11 +32,11 @@ function writeAndClear(array, location) {
                     clearText(location);
                 }, 4000);
             }
-            loop(); // Recursive call to continue the loop
+            loop();
         }, 6000);
     }
 
-    loop(); // Initial call to start the loop
+    loop();
 }
 
 window.addEventListener('load', function() {
