@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="resources/css/base.css">
+    <link rel="stylesheet" href="resources/css/contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Trispace:wght@100..800&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>West's Portfolio</title>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a>Graphic Design</a></li>
+            <li><a>Coding</a></li>
+            <li><a>Photography</a></li>
+            <li><a>Other Projects</a></li>
+            <li><a class="activePage">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section id="formAndText">
+        <div id="formBackground">
+            <img src="resources/assets/backdrop.png">
+        </div>
+        <div id="formText">
+            <p>Hey! Let's get in touch! Fill out the contact form below and I'll be sure to 
+                contact you as soon as I can. Be sure to let me know details of what you're
+                wanting to get done, so I can respond appropriately!
+                <br>
+                <br>
+                I look forward to working with you!
+            </p>
+        </div>
+        <div id="formPicture">
+            <img src="resources/assets/westphoto3.jpg">
+        </div>
+        <div id="formForm">
+            <form>
+                <label for="fName">Name:</label>
+                <input type="text" id="fName" name="fName">
+                <label for="fEmail">Email:</label>
+                <input type="text" id="fEmail" name="fEmail">
+                <label for="fNum">Phone Number:</label>
+                <input type="text" id="fNum" name="fNum">
+                <p>Preferred Contact Method:</p>
+                    <div class="radio">
+                        <label for="fContactEmail">Email</label>
+                        <input type="radio" id="fContactEmail" name="fContact" value="Email">
+                        <label for="fContactPhone">Phone</label>
+                        <input type="radio" id="fContactPhone" name="fContact" value="Phone">
+                    </div>
+                <label for="fReason">Reason For Contact:</label>
+                <input type="text" id="fReason" name="fReason">
+            </form>
+        </div>
+    </section>
+</main>
+<footer>
+    <p>Want to get in contact? Check out my <a>Contact Page!</a></p>
+</footer>
+</body>
+</html>

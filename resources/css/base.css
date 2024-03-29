@@ -64,11 +64,14 @@ nav ul {
 
 nav a {
     cursor: pointer;
+    text-decoration: none;
+    color: #1c2321;
 }
 
 nav a:hover {
     color: #84A07C;
 }
+
 
 .activePage {
     color: #84A07C;

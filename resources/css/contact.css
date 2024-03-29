@@ -1,0 +1,92 @@
+#formAndText {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
+    grid-template-rows: 0.5fr 1fr 1fr 0.5fr;
+    column-gap: 2rem;
+    row-gap: 1rem;
+}
+
+#formBackground {
+    grid-row: 1 / 5;
+    grid-column: 1 / 5;
+}
+
+#formBackground img {
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#formPicture {
+    display: inline-flex;
+    align-items: center;
+    grid-row: 2 / 4;
+    grid-column: 3 / 4;
+}
+
+#formPicture img {
+    width: 100%;
+    object-fit: cover;
+    z-index: 1;
+    box-shadow: #1c232175 1rem 0.5rem;
+    border: #3E3A30 0.2rem solid;
+}
+
+#formText {
+    display: inline-flex;
+    align-items: center;
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    background-color: #f6f0e1;
+    box-shadow: #1c232175 1rem 0.5rem;
+    border: #3E3A30 0.2rem solid;
+}
+
+
+#formForm {
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    background-color: #f6f0e1;
+    box-shadow: #1c232175 1rem 0.5rem;
+    border: #3E3A30 0.2rem solid;
+}
+
+#formForm form {
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.radio {
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+#fReason {
+    height: 2rem;
+}
+
+@media screen and (max-width:768px) {
+    #formPicture {
+        display: none;
+    }
+    #formText {
+        grid-column: 2 / 4;
+    }
+    #formForm {
+        grid-column: 2 / 4;
+    }
+    #formAndText {
+        row-gap: 5rem;
+    }
+    #formBackground img {
+        object-fit: cover;
+        rotate: 90;
+        height: 100%;
+        width: 100%;
+    }
+}
