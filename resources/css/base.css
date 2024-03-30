@@ -1,100 +1,101 @@
-* {
-    box-sizing: border-box;
-    color: #1c2321;
+*{
     margin: 0;
+    
     padding: 0;
-}
+    
+    box-sizing: border-box;
+    }
 
 html {
+    font-size: 16px;
     height: 100%;
 }
 
 body {
     min-height: 100%;
-    background-color: #3e3a30;
-}
-
-.woodbacking {
-    background: url("../assets/wood.png");
-    display: flex;
-    justify-content: center;
-}
-
-nav {
-    position: fixed;
-    top:0;
-    z-index: 12;
-    min-width: 300px;
-    max-width: 500px;
-    text-align: center;
-    -webkit-clip-path: polygon(0 0, 100% 0, calc(100% - 20px) 100%, 20px 100%);
-    clip-path: polygon(0 0, 100% 0, calc(100% - 20px) 100%, 20px 100%);
-    padding: 0px 10px 0px 10px;
-    height: fit-content;
+    color: #1c2321;
     background-color: #f6f0e1;
-}
-
-nav li {
-    display: inline-flex;
-    flex-wrap: wrap;
-    padding: 0px 10px;
-}
-
-nav li a {
-    cursor:pointer;
-    font-family: 'Trispace','Andale Mono',serif;
-    text-decoration: none;
-}
-
-nav li a:hover {
-    color: #fc766d;
-}
-
-.activepage {
-    color: #fc766d;
-}
-
-header {
-    position: relative;
-    margin-top: 30px;
+    font-family: 'IBM Plex Sans','Lucida Grande',sans-serif;
 }
 
 h1 {
     font-family: 'Trispace','Andale Mono',serif;
-    font-size: 64px;
+    font-size: 2rem;
 }
 
 h2 {
     font-family: 'Trispace','Andale Mono',serif;
-    font-size: 32px;
+    font-size: 1.5rem;
 }
 
 h3 {
     font-family: 'Trispace','Andale Mono',serif;
-    font-size: 32px;
+    font-size: 1.2rem;
 }
 
-p {
+nav li {
     font-family: 'IBM Plex Sans','Lucida Grande',sans-serif;
-    font-size: 16px;
+    font-size: 1.2rem;
 }
 
-.woodbackingfooter {
-    background: url("../assets/wood.png");
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1rem 1rem 0.5rem 1rem;
+    height: fit-content;
+    background-color: #f6f0e1;
+    border-bottom: #ECA93B 1rem solid;
 }
 
+nav ul {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+    list-style: none;
+    margin: 0.5rem 0.5rem 0rem 0.5rem;
+}
+
+nav a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #1c2321;
+}
+
+nav a:hover {
+    color: #84A07C;
+}
+
+
+.activePage {
+    color: #84A07C;
+    text-decoration: underline;
+}
 
 footer {
-    float: bottom;
-    z-index: 10;
-    text-align: left;
-    background-color: #3e3a30;
+    height: 3rem;
     width: 100%;
-    height: fit-content;
-    padding: 20px 0px 10px 20px;
+    background-color: #3E3A30;
+    color: #f6f0e1;
+    display: inline-flex;
+    align-items: center;
 }
 
-
 footer p {
-    color: #ECA93B;
+    margin-left: 2rem;
+}
+
+footer a {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #84A07C;
 }
